@@ -1,0 +1,45 @@
+.icon {
+  display: none;
+  height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .icon {
+    display: inline-block;
+    height: 24px;
+    margin-left: 20px;
+  }
+}
+
+.icon--search {
+  display: inline-block;
+  padding: 5px;
+  height: 35px;
+}
+
+@media screen and (min-width: 1024px) {
+  .icon--search {
+    height: 34px;
+  }
+}
+
+.icon--burger {
+  display: inline-block;
+  height: 45px;
+  padding: 5px;
+  margin-left: 10px;
+  border: 2px blue solid;
+}
+
+@media screen and (min-width: 1024px) {
+  .icon--burger {
+    height: 34px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .icon--border {
+    border-right: 2px blue solid;
+    padding-right: 20px;
+  }
+}

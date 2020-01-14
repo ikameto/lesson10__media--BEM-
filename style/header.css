@@ -1,0 +1,44 @@
+/* start header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+
+.header__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__logo {
+    height: 60px;
+  }
+}
+
+.header__burger-wrapper:hover .header__menu {
+  transform: none;
+  box-shadow: -5px 0px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header__menu-overlay {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.header__burger-wrapper:hover + .header__menu-overlay {
+  display: block;
+}

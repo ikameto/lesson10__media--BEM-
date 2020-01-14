@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("./reset-additional.css");
+@import url("./header.css");
+@import url("./icon.css");
+@import url("./banner.css");
+@import url("./news.css");
+@import url("./card.css");
+@import url("./media-title.css");
+@import url("./media-block.css");
+@import url("./footer.css");
+@import url("./menu.css");
+
+.container-margin {
+  margin: 0 auto;
+  width: 100%;
+}
